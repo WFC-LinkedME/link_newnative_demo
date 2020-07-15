@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 //        popDialog.setAdTitleColor(R.color.colorAccent);
-        popDialog.loadAd("4000063_384", null, new OnAdStatusListener() {
+        popDialog.loadAd("4000056_785", null, new OnAdStatusListener() {
             @Override
             public void onClick(AdInfo adInfo) {
                 super.onClick(adInfo);
@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
 //        menuDialog.setAdTitle("提示信息");
 //        menuDialog.setAdTitleColor(R.color.colorAccent);
 //        menuDialog.setAdTitleSize(20);
-        menuDialog.loadAd("4000063_384", null, new OnAdStatusListener() {
+        menuDialog.loadAd("4000056_785", null, new OnAdStatusListener() {
             @Override
             public void onClick(AdInfo adInfo) {
                 super.onClick(adInfo);
@@ -165,7 +165,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         gridAdView = new GridAdView(this);
-        gridAdView.loadAd("4000063_384", null, new OnAdStatusListener() {
+        gridAdView.loadAd("4000056_785", null, new OnAdStatusListener() {
             @Override
             public void onClick(AdInfo adInfo) {
                 super.onClick(adInfo);
